@@ -29,9 +29,8 @@ const someMahasiswa: Mahasiswa[] = [
 function App() {
   return (
     <>
-      <h1>
-        <Header title="Data Mahasiswa" />
-      </h1>
+      <Header title="Data Mahasiswa" />
+
       {someMahasiswa.map((mahasiswa, id) => {
         const { name, majority, birth } = mahasiswa;
         return (
