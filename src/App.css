@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  border: 2px solid blue;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 20px;
+}
+
+.counter {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
