@@ -11,8 +11,8 @@ type Mahasiswa = {
 
 const someMahasiswa: Mahasiswa[] = [
   {
-    name: "Mamat Uncal",
-    majority: "Teknik informatika",
+    name: "Mamat Karbit",
+    majority: "Teknik Lele",
     birth: 2000,
   },
   {
