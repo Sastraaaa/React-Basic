@@ -1,6 +1,7 @@
 import "./App.css";
 import Counter from "./components/Counter";
 import Header from "./components/Header";
+import LikeCounter from "./components/LikeCounter";
 import ProfileCard from "./components/ProfileCard";
 
 type Mahasiswa = {
@@ -38,8 +39,10 @@ function App() {
           <ProfileCard key={id} name={name} majority={majority} birth={birth} />
         );
       })}
-
+      <Header title="Counter Apps" />
       <Counter />
+      <Header title="Like and Dislike" />
+      <LikeCounter />
     </>
   );
 }
