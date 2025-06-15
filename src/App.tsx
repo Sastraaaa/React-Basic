@@ -9,6 +9,7 @@ type Mahasiswa = {
   birth: number;
 };
 
+// Dummy Data
 const someMahasiswa: Mahasiswa[] = [
   {
     name: "Mamat Karbit",
