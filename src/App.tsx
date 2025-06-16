@@ -20,7 +20,10 @@ function App() {
 
       <Routes>
         <Route path="/home" element={<HomePage />} />
+
+        {/* Dynamic Path */}
         <Route path="/product/:slug" element={<ProductPage />} />
+
         <Route path="/product/" element={<ProductPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
