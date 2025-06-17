@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import Dashboard from "./components/Dashboard";
+import ProductListPage from "./pages/ProductListPage";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/home" element={<HomePage />} />
+
+        {/* Search Params */}
+        <Route path="/product-list" element={<ProductListPage />} />
 
         {/* Dynamic Path */}
         <Route path="/product/:slug" element={<ProductPage />} />
