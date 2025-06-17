@@ -7,7 +7,7 @@ const ProductPage = () => {
       <h1>Product Page</h1>
       <h3>Product: {slug} </h3>
       <button>
-        <Link to="/home">Pindah Home Page</Link>
+        <Link to="/">Pindah Ke Dashboard</Link>
       </button>
     </div>
   );
