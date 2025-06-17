@@ -5,7 +5,7 @@ const HomePage = () => {
     <div>
       <h1>Home Page</h1>
       <button>
-        <Link to="/product">Pindah Home Page</Link>
+        <Link to="/product">Pindah Product Page</Link>
       </button>
     </div>
   );
