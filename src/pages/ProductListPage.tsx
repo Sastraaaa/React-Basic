@@ -32,7 +32,7 @@ const ProductListPage = () => {
           Sort Price
         </button>
         <button
-          onClick={() => handleSortValueChange("Most Popular", "pedang alukar")}
+          onClick={() => handleSortValueChange("Most Popular", "Kaos Alucard")}
         >
           Sort Popular
         </button>
