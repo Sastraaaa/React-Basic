@@ -16,6 +16,9 @@ const Dashboard = () => {
       <button style={{ marginTop: "10px" }}>
         <Link to="/home">Menunju Home Page</Link>
       </button>
+      <button style={{ marginTop: "10px" }}>
+        <Link to="/produt-list">Menunju Product List</Link>
+      </button>
     </div>
   );
 };
