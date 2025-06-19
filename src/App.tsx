@@ -5,6 +5,7 @@ import ProductPage from "./pages/ProductPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import Dashboard from "./components/Dashboard";
 import ProductListPage from "./pages/ProductListPage";
+import FormPage from "./pages/FormPage";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         <Route path="/product/:slug" element={<ProductPage />} />
         {/*  */}
 
-        <Route path="/product/" element={<ProductPage />} />
+        <Route path="/product" element={<ProductPage />} />
+        <Route path="/form" element={<FormPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
