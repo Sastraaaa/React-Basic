@@ -6,6 +6,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import Dashboard from "./components/Dashboard";
 import ProductListPage from "./pages/ProductListPage";
 import FormPage from "./pages/FormPage";
+import RHFPage from "./pages/RHFPage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
 
         <Route path="/product" element={<ProductPage />} />
         <Route path="/form" element={<FormPage />} />
+        <Route path="/RHF" element={<RHFPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
