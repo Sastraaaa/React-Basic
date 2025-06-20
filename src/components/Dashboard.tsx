@@ -2,9 +2,10 @@ import Counter from "./Counter";
 import Header from "./Header";
 import MahasiswaList from "./MahasiswaList";
 import LikeCounter from "./LikeCounter";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <Header title="Data Mahasiswa" />
@@ -13,11 +14,14 @@ const Dashboard = () => {
       <Counter />
       <Header title="Like and Dislike" />
       <LikeCounter />
-      <button style={{ marginTop: "10px" }}>
-        <Link to="/home">Menunju Home Page</Link>
+      <button style={{ margin: "10px" }} onClick={() => navigate("/home")}>
+        Menuju ke Home
       </button>
-      <button style={{ marginTop: "10px" }}>
-        <Link to="/produt-list">Menunju Product List</Link>
+      <button
+        style={{ margin: "10px" }}
+        onClick={() => navigate("/product-list")}
+      >
+        Menuju ke Product List
       </button>
     </div>
   );
