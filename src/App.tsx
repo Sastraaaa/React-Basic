@@ -7,6 +7,9 @@ import Dashboard from "./components/Dashboard";
 import ProductListPage from "./pages/ProductListPage";
 import FormPage from "./pages/FormPage";
 import RHFPage from "./pages/RHFPage";
+import ApiPage from "./pages/ApiPage";
+import GetData from "./components/GetData";
+import PostData from "./components/PostData";
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
         <Route path="/form" element={<FormPage />} />
         <Route path="/RHF" element={<RHFPage />} />
         <Route path="*" element={<NotFoundPage />} />
+        <Route path="/api-page" element={<ApiPage />} />
+        <Route path="/get-data" element={<GetData />} />
+        <Route path="/post-data" element={<PostData />} />
       </Routes>
     </>
   );
