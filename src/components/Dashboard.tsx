@@ -14,15 +14,22 @@ const Dashboard = () => {
       <Counter />
       <Header title="Like and Dislike" />
       <LikeCounter />
-      <button style={{ margin: "10px" }} onClick={() => navigate("/home")}>
-        Menuju ke Home
-      </button>
-      <button
-        style={{ margin: "10px" }}
-        onClick={() => navigate("/product-list")}
-      >
-        Menuju ke Product List
-      </button>
+
+      <div className="route-button">
+        <button style={{ margin: "10px" }} onClick={() => navigate("/home")}>
+          Menuju ke Home
+        </button>
+        <button
+          style={{ margin: "10px" }}
+          onClick={() => navigate("/product-list")}
+        >
+          Menuju ke Product List
+        </button>
+
+        <button onClick={() => navigate("/api-page")}>
+          Menuju ke Api Page
+        </button>
+      </div>
     </div>
   );
 };
